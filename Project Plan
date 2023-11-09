@@ -7,19 +7,19 @@ CS 301-03
 Assignment 7 Project Plan
 
 
-Test cases: 15
+Test cases: 13
 We tested the main.cpp file (driver) that stores a series of numbers in the binary search tree. 
 
 
 Expectations: 
-We expect the program to read the values from a file and display the content on the screen. 
+We expect the program to read the values from the file input1.txt and display the content on the screen. 
 The file contains 100 elements. The values are dequeued and displayed on the screen.
-We expect the program to run successfully and that each test will pass. 
+We expect the program to run successfully and that the values/elements are displayed properly on the screen. 
 
 
 Class names: Node, BST 
 
-Functions: while, if-else, Queue, Dequeue, ifstream
+Functions: while, if-else, Queue, Dequeue, ifstream 
 
 
 Logic we tried to implement:
