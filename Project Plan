@@ -50,6 +50,7 @@ public:
 class BST {
     Node* root;
 
+    // Inorder traversal to fill the queue
     void inorderTraversal(Node* node, queue<int> &q) {
         if (node == nullptr) return;
         inorderTraversal(node->left, q);
@@ -60,6 +61,7 @@ class BST {
 public:
     BST() : root(nullptr) {}
 
+    // Function to insert a value into BST
     void insert(int val) {
         if (root == nullptr) {
             root = new Node(val);
@@ -84,6 +86,7 @@ public:
         }
     }
 
+    // Function to fill a queue with BST elements using inorder traversal
     void fillQueue(queue<int> &q) {
         inorderTraversal(root, q);
     }
@@ -95,6 +98,7 @@ int main() {
     BST bst;
     queue<int> q;
 
+    // Read from file and insert values into BST
     if (inputFile.is_open()) {
         while (inputFile >> num) {
             cout << "Reading from file: " << num << endl;
@@ -106,6 +110,7 @@ int main() {
         return 1;
     }
 
+    // Fill the queue with BST elements and display them
     bst.fillQueue(q);
 
     cout << "\nDequeue and Display:\n";
@@ -117,4 +122,3 @@ int main() {
 
     return 0;
 }
-
