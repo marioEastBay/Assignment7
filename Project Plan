@@ -8,11 +8,12 @@ Assignment 7 Project Plan
 
 
 Test cases: 15
-We tested...
+We tested the main.cpp file (driver) that stores a series of numbers in the binary search tree. 
 
 
 Expectations: 
-We expect the program to...
+We expect the program to read the values from a file and display the content on the screen. 
+The file contains 100 elements. The values are dequeued and displayed on the screen.
 We expect the program to run successfully and that each test will pass. 
 
 
