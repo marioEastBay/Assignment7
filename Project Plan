@@ -16,7 +16,7 @@ We expect the program to...
 We expect the program to run successfully and that each test will pass. 
 
 
-Class names: 
+Class names: Node, BST 
 
 Functions: while, if-else, Queue, Dequeue, ifstream
 
