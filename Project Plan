@@ -18,7 +18,7 @@ We expect the program to run successfully and that each test will pass.
 
 Class names: 
 
-Functions: 
+Functions: while, if-else, Queue, Dequeue, ifstream
 
 
 Logic we tried to implement:
